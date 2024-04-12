@@ -568,12 +568,17 @@ input[type="checkbox"]:checked {
 .legendas {
     columns: 2;
     padding-bottom: 60px;
+    width: fit-content;
 }
 
 .legendas li {
     margin-right: 80px;
     cursor: pointer;
-    height: fit-content;
+    width: fit-content;
+}
+
+.legendas ul {
+    width: fit-content;
 }
 
 .links a {
