@@ -573,6 +573,7 @@ input[type="checkbox"]:checked {
 .legendas li {
     margin-right: 80px;
     cursor: pointer;
+    height: fit-content;
 }
 
 .links a {
